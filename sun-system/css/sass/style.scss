@@ -1,0 +1,191 @@
+body{
+	background-image:url(../../images/body.jpg);
+	background-size:cover;
+}
+.sun {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 236px;
+    left: 600px;
+    border-radius: 100%;
+    animation: gunessistemi 80s infinite linear;
+
+    img {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+    }
+}
+@keyframes gunessistemi {
+	from{
+		transform:rotate(0deg);
+	}
+	to{
+		transform:rotate(360deg)
+	}
+}
+@keyframes gunessistemieks {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg)
+    }
+}
+.earth-kub {
+    width: 270px;
+    height: 270px;
+    top: 168px;
+    left: 531px;
+    border: 1px solid transparent;
+    position: relative;
+    animation: gunessistemi 16s infinite linear;
+
+    .month-kub {
+        width: 59px;
+        height: 59px;
+        position: relative;
+        animation: gunessistemi 2s infinite linear;
+        border: 1px solid transparent;
+
+
+
+        .earth {
+            width: 32px;
+            height: 32px;
+            top: 14px;
+            left: 14px;
+            border-radius: 100%;
+            position: absolute;
+            animation: gunessistemi 8s infinite linear;
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 100%;
+                background: transparent;
+            }
+        }
+
+
+        .month {
+            width: 12px;
+            height: 12px;
+            border-radius: 100%;
+            background-color: white;
+            position: absolute;
+        }
+    }
+}
+
+.merkury-kub {
+    width: 115px;
+    height: 115px;
+    top: 256px;
+    left: 619px;
+    position: absolute;
+    border: 1px solid transparent;
+    animation: gunessistemi 5s infinite linear;
+
+    .merkury {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        position: absolute;
+
+        img {
+            width: 100%;
+            position: absolute;
+            left: 0px;
+        }
+    }
+}
+.venos-kub {
+    width: 150px;
+    height: 150px;
+    top: 238px;
+    left: 602px;
+    position: absolute;
+    border: 1px solid transparent;
+    animation: gunessistemi 7s infinite linear;
+
+    .venos {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        border-radius: 100%;
+        img{
+            width:100%;
+            position:absolute;
+        }
+    }
+}
+.mars-kub {
+    width: 316px;
+    height: 316px;
+    top: 150px;
+    left: 515px;
+    position: absolute;
+    border: 1px solid transparent;
+    animation: gunessistemi 18s infinite linear;
+
+    .mars {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border-radius: 100%;
+
+        img {
+            width: 100%;
+            position: absolute;
+        }
+    }
+}
+.jupiter-kub {
+    width: 400px;
+    height: 400px;
+    top: 107px;
+    left: 473px;
+    position: absolute;
+    border: 1px solid transparent;
+    animation: gunessistemi 25s infinite linear;
+
+    .jupiter {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        position: absolute;
+
+        img {
+            width: 100%;
+            position: absolute;
+            left: 0px;
+        }
+    }
+}
+.saturn-kub {
+    width: 500px;
+    height: 500px;
+    top: 57px;
+    left: 423px;
+    position: absolute;
+    border: 1px solid transparent;
+    animation: gunessistemi 30s infinite linear;
+
+    .saturn {
+        width: 90px;
+        height: 90px;
+        border-radius: 100%;
+        position: absolute;
+
+        img {
+            width: 100%;
+            position: absolute;
+            left: -25px;
+            animation: gunessistemieks 30s infinite linear;
+        }
+    }
+}
+
